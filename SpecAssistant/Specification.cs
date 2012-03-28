@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿
 namespace SpecAssistant
 {
     public abstract class Specification<T>
@@ -27,7 +23,7 @@ namespace SpecAssistant
 
         private class LogicalNot : Specification<T>
         {
-            private Specification<T> _spec;
+            private readonly Specification<T> _spec;
 
             public LogicalNot(Specification<T> spec)
             {
@@ -54,10 +50,8 @@ namespace SpecAssistant
 
         private class LogicalAnd : TwoSpecificationLogicalOperation
         {
-            public LogicalAnd(Specification<T> specification, Specification<T> otherSpecification) : base(specification, otherSpecification)
-            {
-                //empty
-            }
+            public LogicalAnd(Specification<T> specification, Specification<T> otherSpecification) 
+                : base(specification, otherSpecification) { }
 
             public override bool IsSatisfiedBy(T value)
             {
@@ -67,10 +61,8 @@ namespace SpecAssistant
 
         private class LogicalOr : TwoSpecificationLogicalOperation
         {
-            public LogicalOr(Specification<T> specification, Specification<T> otherSpecification) : base(specification, otherSpecification)
-            {
-                //empty
-            }
+            public LogicalOr(Specification<T> specification, Specification<T> otherSpecification) 
+                : base(specification, otherSpecification) { }
 
             public override bool IsSatisfiedBy(T value)
             {

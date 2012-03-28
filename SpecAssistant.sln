@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecAssistant", "SpecAssistant\SpecAssistant.csproj", "{AA9F4015-CBD4-4670-BFA8-4EF4A922C501}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecAssitantExampleTest", "SpecAssitantTest\SpecAssitantExampleTest.csproj", "{C2A28DFB-EE16-472B-9AF6-98A61750120F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecAssistantExampleTest", "SpecAssistantExampleTest\SpecAssistantExampleTest.csproj", "{C2A28DFB-EE16-472B-9AF6-98A61750120F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecAssistantExample", "SpecAssistantExample\SpecAssistantExample.csproj", "{1AA5BCA5-0FC6-43CE-9D7C-4BCA331F171E}"
 EndProject
