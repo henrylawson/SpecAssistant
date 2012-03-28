@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="AA9F4015-CBD4-4670-BFA8-4EF4A922C501" ModuleId="SpecAssistant" />
+  <Module PersistentId="C2A28DFB-EE16-472B-9AF6-98A61750120F" ModuleId="SpecAssitantTest" />
+  <Module PersistentId="1AA5BCA5-0FC6-43CE-9D7C-4BCA331F171E" ModuleId="SpecAssistantExample" />
+</Modules>
